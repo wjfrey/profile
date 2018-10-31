@@ -1,66 +1,83 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Wiebke's Profile</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-</head>
-<body>
-<div class="container">
-  <div class="card card-top">
-      <img src="./images/wiebke.jpg" alt="Wiebke" class="circle-pic" id="profile-pic">
-      <h1>Wiebke Frey</h1>
-      <h2>Student @ Le Wagon</h2>
-      <p>After working a lot with developers, <br>I wanted to learn programming myself! <br>That's why I became a student @ Le Wagon.</p>
-      <a href="https://www.lewagon.com/" "target="_blank" class="card-btn-default">See for yourself</a>
-  </div>
-  <div class="card">
-    <ul>
-      <li>
-        <a href="https://www.facebook.com/wiebke.serruys" target="_blank"><i class="fab fa-facebook"></i><span class="icon-text-space"></span>Facebook</a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/wiebke-frey-31217a9b/ "target="_blank"><i class="fab fa-linkedin"></i><span class="icon-text-space"></span>LinkedIn</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/wiebke_frey" "target="_blank"><i class="fab fa-twitter-square"></i><span class="icon-text-space"></span>Twitter</a>
-      </li>
-    </ul>
-  </div>
-  <div class="card">
-    <h2>My Favorite Movies:</h2>
-    <table>
-      <tr>
-        <td><img src="./images/lucky.jpg" alt="Movie: Lucky Number Slevin" class="movie-pic"></td>
-        <td>
-          <h3 class="movie-title">Lucky Number Slevin</h3>
-          <p class="movie-description">A case of mistaken identity puts a man named Slevin (Josh Hartnett) in the middle of a war between two rival New York crime lords: The Rabbi (Ben Kingsley) and the Boss (Morgan Freeman). </p>
-        </td>
-      </tr>
-      <tr>
-        <td><img src="./images/snatch.jpg" alt="Movie: Snatch" class="movie-pic"></td>
-        <td>
-          <h3 class="movie-title">Snatch</h3>
-          <p class="movie-description">Illegal boxing promoter Turkish (Jason Statham) convinces gangster Brick Top (Alan Ford) to offer bets on bare-knuckle boxer Mickey (Brad Pitt) at his bookie business. When Mickey does not throw his first fight as agreed, an infuriated Brick Top demands another match.</p>
-        </td>
-      </tr>
-      <tr>
-        <td><img src="./images/blindside.jpg" alt="Movie: The Blind Side" class="movie-pic"></td>
-        <td>
-          <h3 class="movie-title">The Blind Side</h3>
-          <p class="movie-description">Michael Oher (Quinton Aaron), a homeless black teen, has drifted in and out of the school system for years. Then Leigh Anne Tuohy (Sandra Bullock) and her husband, Sean (Tim McGraw), take him in.</p>
-        </td>
-      </tr>
-    </table>
-  </div>
-  <div class="card">
-    <h2>About this Page</h2>
-    <p>This page has been coded during the <a href="https://www.lewagon.com/program" "target="_blank">FullStack program @LeWagon</a>.
+  <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Wiebke's Profile</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body>
+    <div id="sidebar">
+      <a href="#profile">
+        <h2>
+          <i class="fas fa-user-circle"></i>
+        </h2>
+      </a>
+      <a href="#favorite-movies">
+        <h2>
+          <i class="fas fa-film"></i>
+        </h2>
+      </a>
+      <a href="#footer">
+        <h2>
+          <i class="fas fa-question-circle"></i>
+        </h2>
+      </a>
     </div>
-</div>
-</body>
+    <div id="page-content">
+      <div id="profile" class="card card-top">
+          <img src="./images/wiebke.jpg" alt="Wiebke" class="circle-pic" id="profile-pic">
+          <h1>Wiebke Frey</h1>
+          <h2>Student @ Le Wagon</h2>
+          <p>After working a lot with developers, <br>I wanted to learn programming myself! <br>That's why I became a student @ Le Wagon.</p>
+          <a href="https://www.lewagon.com/" "target="_blank" class="card-btn-default">See for yourself</a>
+      </div>
+      <div class="card">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/wiebke.serruys" target="_blank"><i class="fab fa-facebook"></i><span class="icon-text-space"></span>Facebook</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/wiebke-frey-31217a9b/ "target="_blank"><i class="fab fa-linkedin"></i><span class="icon-text-space"></span>LinkedIn</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/wiebke_frey" "target="_blank"><i class="fab fa-twitter-square"></i><span class="icon-text-space"></span>Twitter</a>
+          </li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2 id="favorite-movies">My Favorite Movies:</h2>
+        <table>
+          <tr>
+            <td><img src="./images/lucky.jpg" alt="Movie: Lucky Number Slevin" class="movie-pic"></td>
+            <td>
+              <h3 class="movie-title">Lucky Number Slevin</h3>
+              <p class="movie-description">A case of mistaken identity puts a man named Slevin (Josh Hartnett) in the middle of a war between two rival New York crime lords: The Rabbi (Ben Kingsley) and the Boss (Morgan Freeman). </p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="./images/snatch.jpg" alt="Movie: Snatch" class="movie-pic"></td>
+            <td>
+              <h3 class="movie-title">Snatch</h3>
+              <p class="movie-description">Illegal boxing promoter Turkish (Jason Statham) convinces gangster Brick Top (Alan Ford) to offer bets on bare-knuckle boxer Mickey (Brad Pitt) at his bookie business. When Mickey does not throw his first fight as agreed, an infuriated Brick Top demands another match.</p>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="./images/blindside.jpg" alt="Movie: The Blind Side" class="movie-pic"></td>
+            <td>
+              <h3 class="movie-title">The Blind Side</h3>
+              <p class="movie-description">Michael Oher (Quinton Aaron), a homeless black teen, has drifted in and out of the school system for years. Then Leigh Anne Tuohy (Sandra Bullock) and her husband, Sean (Tim McGraw), take him in.</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="card">
+        <h2 id="footer">About this Page</h2>
+        <p>This page has been coded during the <a href="https://www.lewagon.com/program" "target="_blank">FullStack program @LeWagon</a>.
+        </div>
+    </div>
+  </body>
 </html>

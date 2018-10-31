@@ -97,8 +97,40 @@ td {
   margin-left: 20px;
 }
 
+/*.icon-space {
+  margin: 20px auto;
+}*/
+
+#sidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 10vw;
+  min-width: 55px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #4B3B4B;
+  color: #EAE0D5;
+}
+
+#sidebar > a {
+  flex-basis: 0;
+  margin: 1px auto;
+  line-height: 0;
+  height: 35px;
+}
+
+#sidebar h2 {
+  font-size: 25px;
+}
+
+#page-content {
+  margin-left: 10vh;
+}
+
 @media (max-width: 700px) {
-  /* For a screen < 540px, this CSS will be read */
   td {
     display: block;
   }
@@ -124,7 +156,6 @@ td {
 }
 
 @media (max-width: 640px) {
-  /* For a screen < 540px, this CSS will be read */
   li {
     display: block;
   }
