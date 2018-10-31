@@ -1,0 +1,133 @@
+body {
+  background-color: #EAE0D5;
+  line-height: 1.6;
+  color: #4B3B4B;
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+}
+
+h1, h2, h3 {
+  color: #547AA5;
+  font-family: 'Karla', sans-serif;
+  line-height: normal;
+}
+
+h3 {
+  margin-top: 0px !important;
+  margin-bottom: 0px;
+}
+
+a {
+  color: #4B3B4B;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #547AA5;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  margin: 0px 20px;
+}
+
+td {
+  vertical-align: top;
+}
+
+.card {
+  background-color: #BDD9BF;
+  width: 60%;
+  margin: 20px auto;
+  text-align: center;
+  padding: 10px 50px;
+  border-width: 1px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px #888888;
+}
+
+.card-top {
+  padding-bottom: 25px;
+}
+
+.circle-pic {
+  border-radius: 50%;
+}
+
+#profile-pic {
+  height: 150px;
+  width: 150px;
+}
+
+.icon-text-space {
+  display: inline-block;
+  min-width: 8px;
+}
+
+.card-btn-default {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #547AA5;
+  padding: 5px 10px;
+  color: #547AA5;
+  border-radius: 3px;
+}
+
+.card-btn-default:hover {
+  color: #BDD9BF;
+  background-color: #547AA5;
+}
+
+
+.movie-description {
+  margin-left: 20px;
+  text-align: justify;
+}
+
+.movie-pic {
+  padding-bottom: 20px;
+}
+
+.movie-title {
+  margin-left: 20px;
+}
+
+@media (max-width: 700px) {
+  /* For a screen < 540px, this CSS will be read */
+  td {
+    display: block;
+  }
+
+  .movie-description {
+    width: 50vw;
+    margin: 5px auto 50px;
+  }
+  .movie-title {
+    width: 50vw;
+    margin: 0px auto;
+  }
+
+  .movie-pic {
+    margin: 0px auto;
+  }
+
+  table {
+    width: 100%;
+    margin: 0px auto;
+  }
+
+}
+
+@media (max-width: 640px) {
+  /* For a screen < 540px, this CSS will be read */
+  li {
+    display: block;
+  }
+  p br { content: ' '; }
+}
+
